@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background: #0069e4;
+  background: url('/img/tail.png') center center no-repeat, linear-gradient(to bottom, #0060df 7%, #0095ff 100%);
+  color: #fff;
+  height: ~'calc(100vh - 60px)';
+
+  > div {
+    align-items: center;
+    display: flex;
+    flex-basis: 33%;
+    padding: 30px 20px;
+  }
+
+  > div:nth-child(1) {
+    flex-basis: 25%;
+  }
+
+  > div:nth-child(3) {
+    flex-basis: 25%;
+  }
+
+  > div:nth-child(2) {
+    flex-basis: 40%;
+    padding: 30px 5%;
+  }
+}

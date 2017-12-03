@@ -1,0 +1,5 @@
+node_modules
+.idea
+src/API/Config/config.json
+config.json
+storage/storage.json

@@ -1,0 +1,8 @@
+{
+	"title": "Mozilla WebVR",
+	"comments": [
+		"Good try!", "Keep going!", "Almost there!", "Very good!", "Excellent!"
+	],
+	"api": "localhost",
+	"port": 4000
+}
