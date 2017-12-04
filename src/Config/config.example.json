@@ -3,6 +3,6 @@
 	"comments": [
 		"Good try!", "Keep going!", "Almost there!", "Very good!", "Excellent!"
 	],
-	"api": "localhost",
+	"apiaccess": "localhost",
 	"port": 4000
 }
