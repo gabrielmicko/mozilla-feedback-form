@@ -26,3 +26,34 @@
     padding: 30px 5%;
   }
 }
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    height: auto;
+    flex-direction: column;
+    > div {
+      align-items: center;
+      display: flex;
+      flex-basis: 100%;
+      padding: 30px 20px 0;
+    }
+
+
+    > div:nth-child(1),
+    > div:nth-child(2),
+    > div:nth-child(3)
+     {
+       padding: 30px 20px 0;
+      flex-basis: 100%;
+    }
+
+  > div:nth-child(3){
+    .shared.list {
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+  }
+
+  }
+}
