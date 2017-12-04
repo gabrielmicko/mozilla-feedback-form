@@ -95,6 +95,9 @@ class Index extends React.Component {
             this.setDefaults();
           }, 3000);
         }
+      })
+      .catch(e => {
+        console.error('Error', e);
       });
   }
 
