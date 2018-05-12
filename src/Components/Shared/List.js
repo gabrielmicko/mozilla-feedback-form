@@ -5,15 +5,17 @@ import { mode } from '../../Config/config.json';
 class List extends React.Component {
   render() {
     if (mode === 'firefox') {
-      <div className="shared list">
-        <h3>Firefox Quantum</h3>
-        <ul>
-          <li>lightning fast</li>
-          <li>secure</li>
-          <li>great design</li>
-          <li>smart features</li>
-        </ul>
-      </div>;
+      return (
+        <div className="shared list">
+          <h3>Firefox Quantum</h3>
+          <ul>
+            <li>lightning fast</li>
+            <li>secure</li>
+            <li>great design</li>
+            <li>smart features</li>
+          </ul>
+        </div>
+      );
     } else {
       return (
         <div className="shared list">
