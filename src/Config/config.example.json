@@ -1,8 +1,9 @@
 {
 	"title": "Mozilla WebVR",
 	"comments": [
-		"Good try!", "Keep going!", "Almost there!", "Very good!", "Excellent!"
+		"Awful!", "Keep working on it!", "Almost there!", "Very good!", "Excellent!"
 	],
 	"apiaccess": "localhost",
-	"port": 4000
+	"port": 4000,
+  "mode": "firefox"
 }
