@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { title } from '../../Config/config.json';
-import { mode } from '../Config/config.json';
+import { mode } from '../../Config/config.json';
 
 class List extends React.Component {
   render() {
